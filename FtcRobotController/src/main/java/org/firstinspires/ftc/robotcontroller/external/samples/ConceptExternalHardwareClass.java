@@ -99,7 +99,7 @@ public class ConceptExternalHardwareClass extends LinearOpMode {
             robot.driveRobot(drive, turn);
 
             // Use gamepad left & right Bumpers to open and close the claw
-            // Use the SERVO constants defined in RobotHardware class.
+            // Use the SERVO pedroPathing.constants defined in RobotHardware class.
             // Each time around the loop, the servos will move by a small amount.
             // Limit the total offset to half of the full travel range
             if (gamepad1.right_bumper)
@@ -112,7 +112,7 @@ public class ConceptExternalHardwareClass extends LinearOpMode {
             robot.setHandPositions(handOffset);
 
             // Use gamepad buttons to move arm up (Y) and down (A)
-            // Use the MOTOR constants defined in RobotHardware class.
+            // Use the MOTOR pedroPathing.constants defined in RobotHardware class.
             if (gamepad1.y)
                 arm = robot.ARM_UP_POWER;
             else if (gamepad1.a)

@@ -13,7 +13,7 @@ The class names will follow a naming convention which indicates the purpose of e
 The prefix of the name will be one of the following:
 
 Basic:  	This is a minimally functional OpMode used to illustrate the skeleton/structure
-            of a particular style of OpMode.  These are bare bones examples.
+            of a particular style of OpMode.  These are bare bones pedroPathing.examples.
 
 Sensor:    	This is a Sample OpMode that shows how to use a specific sensor.
             It is not intended to drive a functioning robot, it is simply showing the minimal code
@@ -97,7 +97,7 @@ should be re-structured to be a suitable Java variable name.  This should keep t
 but adopt the style of beginning with a lower case letter, and then each subsequent word
 starting with an upper case letter.
 
-Eg: from the examples above:  tool, leftMotor, rightClawServo, rearLightSensor.
+Eg: from the pedroPathing.examples above:  tool, leftMotor, rightClawServo, rearLightSensor.
 
 Note:  Sometimes it’s helpful to put the device type first, followed by the variant.
 eg:  motorLeft and motorRight, but this should only be done if the same word order

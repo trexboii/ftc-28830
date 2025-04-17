@@ -109,7 +109,7 @@ public class SensorIMUNonOrthogonal extends LinearOpMode
          *
          * Positive rotation is defined by right-hand rule with thumb pointing in +ve direction on axis.
          *
-         * Some examples.
+         * Some pedroPathing.examples.
          *
          * ----------------------------------------------------------------------------------------------------------------------------------
          * Example A) Assume that the hub is mounted on a sloped plate at the back of the robot, with the USB ports coming out the top of the hub.

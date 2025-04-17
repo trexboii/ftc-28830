@@ -77,7 +77,7 @@ import java.util.concurrent.TimeUnit;
  *  2) Drive towards the Tag to get to the desired distance.  (Use Tag Range to drive the robot forward/backward)
  *
  *  Use DESIRED_DISTANCE to set how close you want the robot to get to the target.
- * Speed and Turn sensitivity can be adjusted using the SPEED_GAIN and TURN_GAIN constants.
+ * Speed and Turn sensitivity can be adjusted using the SPEED_GAIN and TURN_GAIN pedroPathing.constants.
  *
  * Use Android Studio to Copy this Class, and Paste it into the TeamCode/src/main/java/org/firstinspires/ftc/teamcode folder.
  * Remove or comment out the @Disabled line to add this OpMode to the Driver Station OpMode list.
@@ -91,7 +91,7 @@ public class RobotAutoDriveToAprilTagTank extends LinearOpMode
     // Adjust these numbers to suit your robot.
     final double DESIRED_DISTANCE = 12.0; //  this is how close the camera should get to the target (inches)
 
-    //  Set the GAIN constants to control the relationship between the measured position error, and how much power is
+    //  Set the GAIN pedroPathing.constants to control the relationship between the measured position error, and how much power is
     //  applied to the drive motors to correct the error.
     //  Drive = Error * Gain    Make these values smaller for smoother control, or larger for a more aggressive response.
     final double SPEED_GAIN =   0.02 ;   //  Speed Control "Gain". e.g. Ramp up to 50% power at a 25 inch error.   (0.50 / 25.0)

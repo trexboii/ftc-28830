@@ -60,7 +60,7 @@ import java.util.Locale;
  * http://iotdk.intel.com/docs/master/upm/classupm_1_1_b_n_o055.html
  *
  * "This device requires calibration in order to operate accurately. [...] Calibration data is
- * lost on a power cycle. See one of the examples for a description of how to calibrate the device,
+ * lost on a power cycle. See one of the pedroPathing.examples for a description of how to calibrate the device,
  * but in essence:
  *
  * There is a calibration status register available [...] that returns the calibration status
